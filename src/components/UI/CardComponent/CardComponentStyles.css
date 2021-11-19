@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.CardBody{
+    width: 23rem;
+    height: 25rem;
+    /* background-color: #bde0fe; */
+    /* background-color: #B8BEDD; */
+    /* background-color: #c8b6ff; */
+    background-color: #b8c0ff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.CardImage{
+    width:100%;
+    height: 15rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.CardText{
+    height: 10rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}

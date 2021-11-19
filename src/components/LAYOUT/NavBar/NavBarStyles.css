@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.NavBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.HeaderContainer{
+    background-color: #B8BEDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4rem 1rem;
+    /* border-bottom: #c8b6ff solid 5px; */
+    /* border-bottom: #b8c0ff solid 5px; */
+    border-bottom: #a2acdb solid 5px;
+}
+
+.NavBarContainer{
+    margin-left: 3rem;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBarImage{
+    border-radius: 120px;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.imageLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.PageName{
+    font-size: 1.5rem;
+}
